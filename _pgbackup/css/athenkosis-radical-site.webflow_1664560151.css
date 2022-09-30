@@ -452,8 +452,8 @@
   height: 640px;
   background-color: transparent;
   background-image: url('../images/Homepage_Banner.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-position: 0% 0%;
+  background-size: auto;
   opacity: 1;
 }
 
@@ -859,6 +859,7 @@
   position: absolute;
   left: 1017.17px;
   top: 440px;
+  z-index: 100000;
   width: 267.83px;
   height: 267.58px;
   max-width: none;
@@ -913,6 +914,10 @@
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.image-6 {
+  height: 100%;
 }
 
 .body-2 {
@@ -1163,22 +1168,30 @@
   }
 
   .prov_block {
-    left: 82px;
-    top: 307px;
+    left: auto;
+    top: auto;
+    right: 3%;
+    bottom: 15%;
   }
 
   .prov_grid {
-    left: 109px;
-    top: 53%;
-    right: 7%;
-    bottom: 0%;
+    left: auto;
+    top: auto;
+    right: 8%;
+    bottom: 20%;
     overflow: visible;
+    height: 100px;
     color: #000;
   }
 
   .text_prov {
     opacity: 1;
     mix-blend-mode: darken;
+  }
+
+  .contact_section_1 {
+    background-position: 0% 0%;
+    background-size: auto;
   }
 
   .contact_heading {
@@ -1193,6 +1206,10 @@
     width: 100%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .div-block {
+    width: 80%;
   }
 
   .form-block {
@@ -1241,8 +1258,8 @@
 
   .section_1 {
     position: relative;
-    width: 768px;
-    background-size: cover;
+    width: auto;
+    background-size: auto;
   }
 
   .hero_heading-2 {
@@ -1326,7 +1343,12 @@
     top: 15%;
     right: 0%;
     bottom: auto;
-    width: 100%;
+    width: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     -ms-grid-columns: 1fr 1fr;
@@ -1404,11 +1426,18 @@
 
   .province_inner_para {
     left: auto;
-    width: 85%;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
   }
 
   .prov_btn {
     top: 737px;
+  }
+
+  .prov_slider {
+    position: relative;
   }
 
   .image-4 {
@@ -1416,12 +1445,18 @@
   }
 
   .image-5 {
-    left: -331px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 8%;
+    bottom: 5%;
+    z-index: 10000000000;
     width: 220px;
   }
 
   .image-6 {
     width: 100%;
+    height: 100%;
   }
 
   .link-block {
@@ -1457,7 +1492,7 @@
   }
 
   .form_grid {
-    width: 100%;
+    width: 85%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -1834,16 +1869,68 @@
     width: auto;
   }
 
+  .mpu {
+    width: auto;
+  }
+
+  .free {
+    width: auto;
+  }
+
   .province_section {
     width: auto;
   }
 
   .image-3 {
+    position: static;
     width: 100%;
+    max-width: none;
+    min-width: 0%;
+  }
+
+  .gaut {
+    width: auto;
+  }
+
+  .kzn {
+    width: auto;
+  }
+
+  .north_c {
+    width: auto;
+  }
+
+  .north_w {
+    width: auto;
   }
 
   .east {
-    width: 390px;
+    left: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .province_head {
@@ -1854,11 +1941,19 @@
   }
 
   .province_grid {
-    left: 0%;
+    left: auto;
     top: 6%;
-    right: 0%;
+    right: auto;
     bottom: auto;
     width: 100%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .lim {
+    width: auto;
   }
 
   .team_section {
@@ -1965,17 +2060,6 @@
 }
 
 #w-node-_9b1b9770-46f4-0eb1-ac6f-22425acdae66-df25c0b1 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_9b1b9770-46f4-0eb1-ac6f-22425acdae67-df25c0b1 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
