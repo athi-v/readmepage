@@ -1171,14 +1171,14 @@
     left: auto;
     top: auto;
     right: 3%;
-    bottom: 15%;
+    bottom: 20%;
   }
 
   .prov_grid {
     left: auto;
     top: auto;
     right: 8%;
-    bottom: 20%;
+    bottom: 23%;
     overflow: visible;
     height: 100px;
     color: #000;
@@ -1325,9 +1325,53 @@
     width: 100%;
   }
 
+  .mpu {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .free {
+    width: 350%;
+    max-width: 350px;
+  }
+
   .province_section {
     position: relative;
     height: 2400px;
+  }
+
+  .image-3 {
+    width: 350px;
+  }
+
+  .gaut {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .kzn {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .north_c {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .west_c {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .north_w {
+    width: 350px;
+    max-width: 350px;
+  }
+
+  .east {
+    width: 350px;
+    max-width: 350px;
   }
 
   .province_head {
@@ -1340,19 +1384,32 @@
 
   .province_grid {
     left: 0%;
-    top: 15%;
+    top: 0%;
     right: 0%;
-    bottom: auto;
+    bottom: 0%;
     width: auto;
+    max-width: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .lim {
+    width: 350px;
+    max-width: 350px;
   }
 
   .team_section {
@@ -1536,57 +1593,144 @@
     left: auto;
   }
 
+  .province_section_1 {
+    height: 320px;
+    max-height: 320px;
+    background-size: 683px 320px;
+    background-repeat: no-repeat;
+  }
+
+  .hero_heading {
+    left: 4%;
+    top: auto;
+    right: 0%;
+    bottom: 4%;
+    width: auto;
+    font-family: Gantari, sans-serif;
+  }
+
+  .prov_block {
+    left: auto;
+    top: auto;
+    right: 4%;
+    bottom: 35%;
+    width: 300px;
+  }
+
+  .prov_grid {
+    left: auto;
+    top: auto;
+    right: 4%;
+    bottom: 43%;
+    width: 300px;
+  }
+
+  .contact_section_1 {
+    height: 320px;
+    max-height: 320px;
+    background-position: 50% 50%;
+    background-size: 683px 320px;
+    background-repeat: no-repeat;
+  }
+
+  .contact_heading {
+    left: 5%;
+    top: auto;
+    right: 0%;
+    bottom: 4%;
+  }
+
+  .section_2 {
+    height: 383.5px;
+    max-height: 383.5px;
+    background-position: 0% 0%;
+    background-size: 683px 383.5px;
+    background-repeat: no-repeat;
+  }
+
+  .contact_section_2 {
+    height: 383.5px;
+    max-height: 383.5px;
+    background-position: 50% 50%;
+    background-size: 683px 383.5px;
+    background-repeat: no-repeat;
+  }
+
   .section_1 {
     width: auto;
+    height: 320px;
+    max-height: 320px;
+    background-position: 50% 50%;
+    background-size: 683px 320px;
+    background-repeat: no-repeat;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
   }
 
   .hero_heading-2 {
     left: 5%;
-    top: 53%;
-    right: 0%;
+    top: 25%;
+    right: auto;
     bottom: auto;
-    height: 120px;
+    width: 400px;
+    height: 60px;
+    font-size: 48px;
+    line-height: 64px;
   }
 
   .hero_paragraph {
     left: 5%;
     top: auto;
     right: 0%;
-    bottom: 0%;
-    height: 150px;
+    bottom: 5%;
+    width: 450px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .about_section {
     height: 1000px;
   }
 
+  .benefits_section {
+    height: 900px;
+    max-height: 900px;
+  }
+
   .about_heading {
     left: 5%;
-    top: 10%;
+    top: 5%;
     right: 0%;
     bottom: auto;
   }
 
   .about_paragraph {
     left: 5%;
-    top: auto;
-    right: 0%;
-    bottom: 0%;
-    height: 420px;
+    top: 200px;
+    right: 10%;
+    bottom: auto;
+    height: 500px;
+    text-align: justify;
   }
 
   .benefit_heading {
-    left: 0%;
+    left: 5%;
     top: 5%;
     right: 0%;
     bottom: auto;
-    height: 200px;
+    width: auto;
+    height: 150px;
+    text-align: left;
   }
 
   .benefit_paragraph {
     left: 5%;
-    right: 0px;
-    height: 520px;
+    right: 10%;
+    height: 500px;
+    text-align: justify;
   }
 
   .image-2 {
@@ -1597,11 +1741,15 @@
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 4%;
+    bottom: 2%;
   }
 
   .province_section {
     height: 3600px;
+  }
+
+  .west_c {
+    width: auto;
   }
 
   .province_head {
@@ -1612,7 +1760,12 @@
   }
 
   .province_grid {
-    top: 10%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: auto;
+    max-width: none;
     justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -1648,6 +1801,7 @@
     left: 50px;
     width: 500px;
     height: 150px;
+    text-align: justify;
   }
 
   .team_2 {
@@ -1662,13 +1816,55 @@
     bottom: auto;
   }
 
+  .prov_heading {
+    left: 5%;
+  }
+
+  .prov_about_paragraph {
+    left: 5%;
+    height: 380px;
+    text-align: justify;
+  }
+
   .shade_para {
+    left: 5%;
     top: 562px;
-    height: 300px;
+    height: 260px;
+  }
+
+  .province_inner_para {
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    text-align: justify;
   }
 
   .prov_btn {
+    left: 5%;
     top: 900px;
+  }
+
+  .prov_slider_comp {
+    height: 383.5px;
+    max-height: 383.5px;
+  }
+
+  .image-5 {
+    width: 110px;
+    height: auto;
+  }
+
+  .section_2_province {
+    height: 383.5px;
+    max-height: 383.5px;
+    background-position: 50% 50%;
+    background-size: 683px 383.5px;
+    background-repeat: no-repeat;
+  }
+
+  .form_grid {
+    left: 5%;
   }
 
   .province_head_name {
@@ -1697,7 +1893,21 @@
   }
 
   .province_section_contact {
-    height: 3600px;
+    height: 3400px;
+  }
+
+  .gradient_home {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .gradient_contact {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
   }
 }
 
@@ -1712,18 +1922,32 @@
 
   .hero_heading {
     left: 5%;
-    top: 463px;
-    width: 75%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 85%;
+    height: 140px;
   }
 
   .prov_block {
     left: 5%;
-    width: 95%;
+    top: auto;
+    right: auto;
+    bottom: 3%;
+    width: 85%;
+    height: 130px;
   }
 
   .prov_grid {
     left: 5%;
-    width: 90%;
+    top: auto;
+    right: auto;
+    bottom: 5%;
+    width: 85%;
+  }
+
+  .text_prov {
+    width: auto;
   }
 
   .contact_section_1 {
@@ -1772,6 +1996,10 @@
     height: 200px;
   }
 
+  .section_2 {
+    background-position: 50% 50%;
+  }
+
   .footer {
     height: 450px;
   }
@@ -1811,23 +2039,28 @@
   }
 
   .section_1 {
-    height: 800px;
+    height: 320px;
   }
 
   .hero_heading-2 {
     left: 5%;
-    top: 35%;
-    right: 0%;
+    top: 18%;
+    right: 5px;
     bottom: auto;
-    height: 180px;
+    width: auto;
+    height: 140px;
+    line-height: 45px;
   }
 
   .hero_paragraph {
     left: 5%;
     top: auto;
-    right: 0%;
-    bottom: 23%;
+    right: 2%;
+    bottom: 4%;
+    width: auto;
     height: 100px;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .about_section {
@@ -1835,25 +2068,29 @@
   }
 
   .benefits_section {
-    height: 1200px;
+    height: 1100px;
+    max-height: 1300px;
   }
 
   .about_paragraph {
     bottom: 35%;
+    height: 850px;
   }
 
   .benefit_section {
-    height: 1200px;
+    height: 1400px;
+    max-height: 1400px;
   }
 
   .benefit_heading {
     left: 5%;
+    height: 250px;
   }
 
   .benefit_paragraph {
     left: 5%;
     top: 30%;
-    right: 0%;
+    right: 10%;
     bottom: auto;
   }
 
@@ -1865,7 +2102,7 @@
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 10%;
+    bottom: 5%;
     width: auto;
   }
 
@@ -1879,6 +2116,7 @@
 
   .province_section {
     width: auto;
+    height: 3400px;
   }
 
   .image-3 {
@@ -1975,7 +2213,9 @@
   .team_para {
     left: 5%;
     top: 127px;
+    right: 10%;
     width: auto;
+    height: 250px;
   }
 
   .footer_grid-2 {
@@ -1994,12 +2234,19 @@
 
   .prov_about_paragraph {
     left: 5%;
+    height: 600px;
   }
 
   .shade_para {
     left: 5%;
     top: 805px;
-    height: 450px;
+    width: 90%;
+    height: 410px;
+  }
+
+  .province_inner_para {
+    left: auto;
+    width: 95%;
   }
 
   .prov_btn {
@@ -2013,8 +2260,11 @@
   }
 
   .image-5 {
-    left: 132px;
-    width: 150px;
+    left: auto;
+    top: auto;
+    right: 5%;
+    bottom: 5%;
+    width: 75px;
   }
 
   .image-6 {
