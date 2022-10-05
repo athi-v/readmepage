@@ -221,6 +221,15 @@
   text-transform: uppercase;
 }
 
+.hero_heading.ll {
+  display: block;
+  width: auto;
+}
+
+.hero_heading.ll.mpu_mobile {
+  display: block;
+}
+
 .prov_block {
   position: absolute;
   left: auto;
@@ -231,6 +240,18 @@
   height: 150px;
   background-color: #fff;
   opacity: 0.4;
+}
+
+.prov_block.kzn {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 5%;
+  bottom: 5%;
+}
+
+.prov_block.llll {
+  width: 400px;
 }
 
 .prov_grid {
@@ -252,6 +273,21 @@
   line-height: 27px;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
+}
+
+.prov_grid.ok {
+  right: 160px;
+}
+
+.prov_grid.kznn {
+  display: block;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .text_prov {
@@ -693,7 +729,7 @@
 .pro_sub {
   position: absolute;
   left: auto;
-  top: 1280px;
+  top: 1350px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -712,7 +748,7 @@
   font-family: 'Ms Madi', sans-serif;
   color: #000;
   font-size: 48px;
-  line-height: 63px;
+  line-height: 64px;
   font-weight: 400;
   text-align: center;
 }
@@ -1012,6 +1048,7 @@
   top: 162px;
   width: 999px;
   height: 204px;
+  margin-bottom: 0px;
   font-family: Gantari, sans-serif;
   color: #000;
   font-size: 18px;
@@ -1680,6 +1717,74 @@
   max-height: 100%;
 }
 
+.prov_block_kzn {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 60px;
+  bottom: 60px;
+  width: 400px;
+  height: 150px;
+  background-color: #fff;
+  opacity: 0.4;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  font-family: Gantari, sans-serif;
+  color: #fff;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  color: #fa0707;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
 @media screen and (max-width: 991px) {
   .nav-menu {
     position: relative;
@@ -1738,6 +1843,10 @@
     font-size: 22px;
     line-height: 34px;
     font-weight: 400;
+  }
+
+  .button.ok {
+    border-style: none;
   }
 
   .nav-link-2 {
@@ -1817,6 +1926,10 @@
     width: 85%;
   }
 
+  .hero_heading.ll {
+    display: block;
+  }
+
   .prov_block {
     left: auto;
     top: auto;
@@ -1834,6 +1947,10 @@
     color: #000;
   }
 
+  .prov_grid.ok {
+    right: 12%;
+  }
+
   .text_prov {
     opacity: 1;
     mix-blend-mode: darken;
@@ -1849,7 +1966,7 @@
   }
 
   .contact_form_section {
-    height: 950px;
+    height: 850px;
   }
 
   .grid {
@@ -1868,7 +1985,7 @@
 
   .div-block-2 {
     position: absolute;
-    top: 302px;
+    top: 250px;
     width: 100%;
   }
 
@@ -1944,7 +2061,7 @@
 
   .benefit_section {
     position: relative;
-    height: 1000px;
+    height: 900px;
   }
 
   .benefit_heading {
@@ -2065,11 +2182,12 @@
 
   .team_section {
     position: relative;
+    height: 600px;
   }
 
   .team_grid {
     left: 0%;
-    top: 17%;
+    top: 6%;
     right: 0%;
     bottom: auto;
     overflow: visible;
@@ -2087,6 +2205,10 @@
     position: relative;
     left: 50px;
     width: 600px;
+  }
+
+  .team_para {
+    top: 55px;
   }
 
   .team_2 {
@@ -2129,15 +2251,15 @@
     left: 82px;
     top: 488px;
     width: 85%;
-    height: 200px;
+    height: 150px;
   }
 
   .province_inner_para {
     left: auto;
     top: auto;
-    width: 100%;
-    height: 100%;
-    padding-top: 40px;
+    width: auto;
+    height: auto;
+    padding: 10px;
   }
 
   .prov_btn {
@@ -2296,6 +2418,13 @@
     width: 350px;
     max-width: 350px;
   }
+
+  .prov_block_kzn {
+    left: auto;
+    top: auto;
+    right: 3%;
+    bottom: 20%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2309,6 +2438,10 @@
     max-height: 320px;
     background-size: 683px 320px;
     background-repeat: no-repeat;
+  }
+
+  .province_section_1.fs {
+    position: relative;
   }
 
   .hero_heading {
@@ -2325,7 +2458,7 @@
     top: auto;
     right: 4%;
     bottom: 35%;
-    width: 300px;
+    width: 350px;
   }
 
   .prov_grid {
@@ -2333,7 +2466,12 @@
     top: auto;
     right: 4%;
     bottom: 43%;
-    width: 300px;
+    width: auto;
+  }
+
+  .prov_grid.ok {
+    right: 25%;
+    width: 256px;
   }
 
   .contact_section_1 {
@@ -2349,6 +2487,14 @@
     top: auto;
     right: 0%;
     bottom: 4%;
+  }
+
+  .contact_form_section {
+    height: 820px;
+  }
+
+  .div-block-2 {
+    top: 250px;
   }
 
   .section_2 {
@@ -2466,12 +2612,15 @@
   }
 
   .about_section {
-    height: 1000px;
+    position: relative;
+    top: 0px;
+    height: 900px;
+    max-height: none;
   }
 
   .benefits_section {
-    height: 900px;
-    max-height: 900px;
+    height: 700px;
+    max-height: none;
   }
 
   .about_heading {
@@ -2483,11 +2632,18 @@
 
   .about_paragraph {
     left: 5%;
-    top: 200px;
+    top: 150px;
     right: 10%;
     bottom: auto;
-    height: 500px;
-    text-align: justify;
+    height: 450px;
+    text-align: left;
+  }
+
+  .benefit_section {
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 750px;
   }
 
   .benefit_heading {
@@ -2496,30 +2652,55 @@
     right: 0%;
     bottom: auto;
     width: auto;
-    height: 150px;
+    height: auto;
     text-align: left;
   }
 
   .benefit_paragraph {
     left: 5%;
-    right: 10%;
-    height: 500px;
-    text-align: justify;
+    top: 200px;
+    right: 5%;
+    bottom: auto;
+    height: 420px;
+    max-height: 600px;
+    text-align: left;
   }
 
   .image-2 {
     left: auto;
+    top: auto;
+    right: 5%;
+    bottom: 5%;
   }
 
   .pro_sub {
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 2%;
+    bottom: 3%;
+    width: 100%;
+    height: 95px;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .province_section {
-    height: 3600px;
+    top: 0px;
+    display: block;
+    height: 3400px;
   }
 
   .west_c {
@@ -2550,7 +2731,7 @@
   }
 
   .team_section {
-    height: 850px;
+    height: 650px;
   }
 
   .team_grid {
@@ -2559,7 +2740,7 @@
     right: 0%;
     bottom: auto;
     width: 100%;
-    height: 70%;
+    height: 450px;
   }
 
   .team_1 {
@@ -2568,11 +2749,12 @@
   }
 
   .team_head {
-    left: 50px;
+    left: 5%;
   }
 
   .team_para {
-    left: 50px;
+    left: 5%;
+    right: 5%;
     width: 500px;
     height: 150px;
     text-align: justify;
@@ -2581,6 +2763,10 @@
   .team_2 {
     left: auto;
     width: 100%;
+  }
+
+  .team_image {
+    bottom: 5%;
   }
 
   .footer_grid-2 {
@@ -2592,18 +2778,28 @@
 
   .prov_heading {
     left: 5%;
+    top: 10%;
+    right: 0%;
+    bottom: auto;
   }
 
   .prov_about_paragraph {
+    position: absolute;
     left: 5%;
-    height: 380px;
-    text-align: justify;
+    top: 15%;
+    right: 0%;
+    bottom: 0%;
+    height: 370px;
+    text-align: left;
   }
 
   .shade_para {
     left: 5%;
-    top: 562px;
-    height: 260px;
+    top: auto;
+    right: auto;
+    bottom: 15%;
+    height: 200px;
+    color: #000;
   }
 
   .province_inner_para {
@@ -2611,12 +2807,15 @@
     top: 0%;
     right: auto;
     bottom: 0%;
-    text-align: justify;
+    padding: 15px;
+    text-align: left;
   }
 
   .prov_btn {
     left: 5%;
-    top: 900px;
+    top: auto;
+    right: auto;
+    bottom: 4%;
   }
 
   .prov_slider_comp {
@@ -2708,6 +2907,14 @@
     width: auto;
     font-family: Gantari, sans-serif;
   }
+
+  .prov_block_kzn {
+    left: auto;
+    top: auto;
+    right: 4%;
+    bottom: 35%;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2732,12 +2939,39 @@
     top: 0%;
     right: 0%;
     bottom: auto;
-    width: 85%;
+    width: auto;
     height: 140px;
+    font-size: 48px;
+    line-height: 58px;
   }
 
   .hero_heading.ll {
+    display: block;
     width: auto;
+    height: 180px;
+    max-width: none;
+    min-width: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    font-size: 48px;
+    line-height: 68px;
+  }
+
+  .hero_heading.ll.mpu_mobile {
+    display: none;
   }
 
   .prov_block {
@@ -2749,12 +2983,17 @@
     height: 130px;
   }
 
+  .prov_block.llll {
+    width: 380px;
+  }
+
   .prov_grid {
     left: 5%;
     top: auto;
     right: auto;
     bottom: 5%;
     width: 85%;
+    height: auto;
   }
 
   .text_prov {
@@ -2766,8 +3005,13 @@
   }
 
   .contact_heading {
-    left: auto;
-    width: 100%;
+    left: 5%;
+    width: auto;
+    font-size: 48px;
+  }
+
+  .contact_form_section {
+    height: 800px;
   }
 
   .grid {
@@ -2799,7 +3043,9 @@
 
   .div-block-2 {
     left: 5%;
+    top: 250px;
     width: 85%;
+    height: auto;
   }
 
   .textarea {
@@ -2875,46 +3121,137 @@
   }
 
   .about_section {
-    height: 1500px;
+    position: relative;
+    top: auto;
+    display: block;
+    height: 850px;
+    max-height: 2000px;
   }
 
-  .benefits_section {
-    height: 1100px;
-    max-height: 1300px;
-  }
-
-  .about_paragraph {
-    bottom: 35%;
+  .about_section.ec_sec {
     height: 850px;
   }
 
+  .about_section.fre_sec {
+    height: 950px;
+  }
+
+  .about_section.gau_sec {
+    height: 950px;
+  }
+
+  .about_section.nc {
+    height: 900px;
+  }
+
+  .about_section.mpu {
+    height: 1100px;
+    max-width: none;
+  }
+
+  .about_section.noc {
+    height: 1000px;
+  }
+
+  .about_section.wc {
+    height: 1100px;
+  }
+
+  .about_section.lims {
+    height: 1000px;
+  }
+
+  .about_section.mppp {
+    height: 1050px;
+  }
+
+  .benefits_section {
+    position: relative;
+    top: auto;
+    z-index: 0;
+    width: auto;
+    height: 750px;
+    max-height: none;
+    min-height: 0px;
+    float: none;
+    clear: none;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .about_heading {
+    left: 5%;
+    top: 5%;
+    right: 0%;
+    bottom: auto;
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .about_paragraph {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    right: 4%;
+    bottom: auto;
+    display: block;
+    width: auto;
+    height: 600px;
+    max-width: none;
+    min-width: 0px;
+    margin: auto;
+    padding: 0%;
+    line-height: 30px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
   .benefit_section {
-    height: 1400px;
-    max-height: 1400px;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    width: auto;
+    height: 1150px;
+    max-height: none;
   }
 
   .benefit_heading {
     left: 5%;
-    height: 250px;
+    height: auto;
+    font-size: 46px;
+    line-height: 50px;
   }
 
   .benefit_paragraph {
+    position: absolute;
     left: 5%;
     top: 30%;
-    right: 10%;
+    right: 4%;
     bottom: auto;
+    display: inline-block;
+    height: auto;
+    max-height: none;
+    margin-bottom: 0px;
   }
 
   .image-2 {
-    bottom: 1%;
+    position: absolute;
+    bottom: 5%;
   }
 
   .pro_sub {
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 5%;
+    bottom: 1%;
     width: auto;
+    height: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .mpu {
@@ -2926,8 +3263,9 @@
   }
 
   .province_section {
+    top: auto;
     width: auto;
-    height: 3400px;
+    height: 3290px;
   }
 
   .image-3 {
@@ -3006,27 +3344,51 @@
   }
 
   .team_section {
-    height: 1200px;
+    height: 750px;
   }
 
   .team_grid {
     left: 0%;
-    top: 15%;
+    top: 5%;
     right: 0%;
     bottom: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: none;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+
+  .team_1 {
+    width: auto;
+    height: 200px;
   }
 
   .team_head {
     left: 5%;
+    bottom: auto;
     width: auto;
+    height: auto;
   }
 
   .team_para {
     left: 5%;
-    top: 127px;
-    right: 10%;
+    top: 75px;
+    right: 4%;
     width: auto;
-    height: 250px;
+    height: 150px;
+    text-align: left;
+  }
+
+  .team_2 {
+    top: 73px;
+  }
+
+  .team_image {
+    bottom: 5%;
   }
 
   .footer_grid-2 {
@@ -3041,28 +3403,138 @@
 
   .prov_heading {
     left: 5%;
+    top: 5%;
+    right: 0%;
+    bottom: auto;
   }
 
   .prov_about_paragraph {
+    position: absolute;
     left: 5%;
-    height: 600px;
+    top: 10%;
+    right: 4%;
+    bottom: 0px;
+    width: auto;
+    height: 500px;
+    max-height: 600px;
+    text-align: left;
+  }
+
+  .prov_about_paragraph.ec_para {
+    height: 360px;
+  }
+
+  .prov_about_paragraph.free_para {
+    height: 400px;
+  }
+
+  .prov_about_paragraph.gau {
+    height: 400px;
   }
 
   .shade_para {
     left: 5%;
-    top: 805px;
-    width: 90%;
-    height: 410px;
+    top: auto;
+    right: 4%;
+    bottom: 15%;
+    width: auto;
+    height: 300px;
+    padding-bottom: 0px;
+  }
+
+  .shade_para.free_s {
+    bottom: 17%;
+  }
+
+  .shade_para.ecd {
+    bottom: 15%;
+  }
+
+  .shade_para.nw {
+    bottom: 15%;
+    height: 250px;
+  }
+
+  .shade_para.kxv {
+    bottom: 15%;
+    height: 250px;
+  }
+
+  .shade_para.mpu {
+    bottom: 15%;
+    height: 290px;
+  }
+
+  .shade_para.nx {
+    bottom: 13%;
+    height: 330px;
+  }
+
+  .shade_para.linp {
+    bottom: 12%;
   }
 
   .province_inner_para {
-    left: auto;
-    width: 95%;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+    display: block;
+    width: auto;
+    height: 250px;
+    max-width: none;
+    margin: auto auto 0px;
+    padding: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: left;
+  }
+
+  .province_inner_para.free_inn {
+    top: 5%;
+    bottom: 5%;
+  }
+
+  .province_inner_para.gau {
+    left: 7%;
+    right: 7%;
+    bottom: 7%;
+    height: 230px;
+  }
+
+  .province_inner_para.limpo {
+    bottom: 5%;
+  }
+
+  .province_inner_para.mah {
+    bottom: 5%;
+    height: 210px;
+  }
+
+  .province_inner_para.kz {
+    bottom: 8%;
+    height: 210px;
+  }
+
+  .province_inner_para.mpuu {
+    bottom: 7%;
   }
 
   .prov_btn {
     left: 5%;
-    top: 1300px;
+    top: auto;
+    right: 0%;
+    bottom: 5%;
   }
 
   .image-4 {
@@ -3084,12 +3556,20 @@
     object-fit: cover;
   }
 
+  .body-2 {
+    margin-right: auto;
+    margin-left: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
   .form_grid {
     left: 0%;
     top: 7%;
     right: 0%;
     bottom: auto;
     width: 100%;
+    height: 250px;
   }
 
   .province_head_name {
@@ -3117,6 +3597,7 @@
 
   .province_section_contact {
     width: auto;
+    height: 3300px;
   }
 
   .text_prov_free {
@@ -3160,12 +3641,26 @@
     height: 140px;
   }
 
+  .hero_heading-_n_c.n_c {
+    font-size: 48px;
+    line-height: 68px;
+  }
+
   .north_w_link {
     width: auto;
   }
 
   .north_c-_link {
     width: auto;
+  }
+
+  .prov_block_kzn {
+    left: 5%;
+    top: auto;
+    right: auto;
+    bottom: 3%;
+    width: 85%;
+    height: 130px;
   }
 }
 
@@ -4611,6 +5106,17 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_1144dec9-d158-6fd2-c903-3a61a3986e58-df25c0b1 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
   #w-node-c40bf3c1-41fc-0974-2e95-71eb1f7f31f5-1f7f31f3 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;

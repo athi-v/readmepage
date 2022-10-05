@@ -13,6 +13,7 @@
   }
     a { text-decoration:none;}
 </style>
+
 <?php 
 if(isset($_POST['submit'])){
     $to = "athenkosivinqi25@gmail.com"; // this is your Email address
@@ -33,7 +34,6 @@ if(isset($_POST['submit'])){
     
     echo "<div class='mail'>  Mail Sent. Thank you " . $fname .", we will contact you shortly.<br/> <a href='index.html'> Return Home</a>
     </div>";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    // You cannot use header and echo together. It's one or the other.
+   
     }
 ?>
